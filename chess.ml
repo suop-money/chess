@@ -28,7 +28,7 @@ module type Board = sig
 
   val check : board -> bool
 
-  val checkmake : board -> bool
+  val checkmate : board -> bool
 end
 
 
